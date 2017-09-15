@@ -1,0 +1,99 @@
+body {
+	/*
+	This is the black color.
+	background-color: #222;
+	*/
+	background-color: #f2f4f7;
+}
+body, html {
+	height: 100%;
+}
+.blee {
+	font-size: 1.5em;
+	white-space: nowrap;
+}
+
+.table-icon {
+	border: 2px solid blue;
+	height: 50px;
+	width:  50px;
+}
+.chill {
+	height: 100px;
+}
+
+.project-showcase {
+	margin-top: 40px;
+}
+
+#name {
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15em;
+	color: white;
+}
+
+#arrow {
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	padding-left: 50%;
+	cursor: pointer;
+}
+
+#home {
+	padding-top: 70px;
+	height: 100%;
+	width: 100%;
+	background-image: url("https://static.pexels.com/photos/532571/pexels-photo-532571.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#about {
+	padding-top: 0;
+	min-height: 100%;
+	padding-top: 60px;
+}
+
+#test {
+	
+	min-height: 100vh;
+	background-color: #f2f4f7;
+}
+
+#me-pic {
+	max-height: 200px;
+	margin: auto;
+	border-radius: 100%;
+	margin-top: 20px;
+}
+
+#me-descrip {
+	text-align: center;
+	padding-top: 1.5em;
+}
+
+#one {
+	width: 50px;
+	margin-right: 50px;
+}
+
+#two {
+	width: 50px;
+}
+
+#projects {
+	padding-top: 60px;
+	min-height: 100%;
+	background-color: yellow;
+}
+
+#contact {
+	padding-top: 60px;
+	min-height: 100%;
+	background-color: blue;		
+}
