@@ -9,6 +9,9 @@ body {
 body, html {
 	height: 100%;
 }
+.center-view {
+	margin-bottom: 160px;
+}
 
 .blee {
 	display: inline;
@@ -16,7 +19,6 @@ body, html {
 }
 .resume {
 	text-align: center;
-	cursor: pointer;
 }
 .table-icon {
 	border: 2px solid blue;
