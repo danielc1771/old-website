@@ -27,3 +27,11 @@ $("#home-btn").click(function() {
 		scrollTop: $("#home").offset().top
 	}, 'slow');
 });
+
+$(".grayscale").hover( function() {
+	$(this).toggleClass("grayscale");
+});
+
+$(".fa-id-card").click(function() {
+	window.open("public/resume.pdf",'_blank');
+});
