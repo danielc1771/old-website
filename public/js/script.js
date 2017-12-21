@@ -35,3 +35,11 @@ $(".grayscale").hover( function() {
 $(".fa-id-card").click(function() {
 	window.open("public/resume.pdf",'_blank');
 });
+
+$(".fa-id-card").hover(function() {
+	$(this).toggleClass("blue");
+});
+
+$(".yo").hover(function() {
+	$(this).toggleClass("link-hover");
+});
