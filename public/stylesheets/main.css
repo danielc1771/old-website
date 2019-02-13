@@ -61,6 +61,13 @@ body, html {
 	color: #50A6C2;
 }
 
+.img-cap {
+	min-width: 245px;
+	max-width: 245px;
+	min-height: 200px;
+	max-height: 200px;
+}
+
 
 #name {
 	position: relative;
@@ -125,11 +132,16 @@ body, html {
 	padding-top: 10px;
 	padding-left: 10px;
 }
+
 #c {
 	max-height: 70px;
 	padding-left: 5px;
 	padding-top: 5px;
 	margin-right: 10px;
+}
+
+#js {
+	margin-left: 20px;
 }
 
 #skills {
@@ -161,6 +173,11 @@ body, html {
 	padding-top: 60px;
 	min-height: 100%;
 	background-color: #f2f4f7;		
+}
+
+#quote {
+	margin-top: 60vh;
+	text-align: center;
 }
 
 .yo {
